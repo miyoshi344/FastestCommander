@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{c4e215de-f57b-486c-9299-a3952875e8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mesh">
+      <UniqueIdentifier>{486276e9-ac57-43a7-8afa-ef177eb45ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{37e5f7dc-3454-4fe2-a6e0-d79d7f1d2e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{215e6add-f051-45ae-aff0-fd32a68e4cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Field">
+      <UniqueIdentifier>{686c43c7-6137-419a-9b59-0f25214ca684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\other">
+      <UniqueIdentifier>{c08c6650-e849-447d-8846-60d5a4cfdeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow">
+      <UniqueIdentifier>{22f2d810-a1e8-4ac2-b283-6e1c0957fa6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\InterFace">
+      <UniqueIdentifier>{22484461-dfc7-486d-b564-eb62cd9c4926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediocrity">
+      <UniqueIdentifier>{1af23d20-a74a-4d56-a6ab-dbeb2c5dc71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediocrity\common">
+      <UniqueIdentifier>{1d544880-6b15-46b4-93d6-9d092096a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\DirectInput XInput">
+      <UniqueIdentifier>{b3f3be06-014c-4df6-86b9-21f32fb98bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Direct3d">
+      <UniqueIdentifier>{34d25977-13c0-4466-b028-f25e4d30ecef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\DirectSound">
+      <UniqueIdentifier>{57158e0c-acff-44e7-b1c0-b36dac72e96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sprite">
+      <UniqueIdentifier>{dbef11e0-1859-4457-b528-7100a8147e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture">
+      <UniqueIdentifier>{f702145f-c348-46e1-bb60-b6d5e0a64762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\InterFace\CheckPoint">
+      <UniqueIdentifier>{37ceb5ed-ea95-45de-9376-05570a44e89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\InterFace\Speed">
+      <UniqueIdentifier>{f32361f8-744b-453c-afdd-bf61938f78e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\InterFace\Time">
+      <UniqueIdentifier>{24a7d27a-738d-4173-b469-fe5e4547687d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\other\Camera">
+      <UniqueIdentifier>{a6780053-d660-4100-bc2c-805750e2168e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\FrameRate">
+      <UniqueIdentifier>{225109a9-e570-479a-bf6d-e68026809653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Main">
+      <UniqueIdentifier>{521e8fbb-83f0-426f-9b51-170ffb4e4326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\other\Collision">
+      <UniqueIdentifier>{19f4a29b-60ce-4305-a342-7c63ed64dc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Title">
+      <UniqueIdentifier>{64765e59-6129-4c83-a10b-b10986f7d0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Ending">
+      <UniqueIdentifier>{2301a5e1-d6f0-4db7-a363-308c59472f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediocrity\polygon">
+      <UniqueIdentifier>{950c113e-fedb-4b47-ba54-32a5668e766b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Field\BlockBase">
+      <UniqueIdentifier>{69dca59b-9803-4a29-ac0d-36a56f7bbbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Progress">
+      <UniqueIdentifier>{c813c85c-a2af-42ca-a9d9-581a50e6b2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Character">
+      <UniqueIdentifier>{c8f02232-d095-4845-9392-86016e069da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Character\Player">
+      <UniqueIdentifier>{a1f76477-6e92-4e6f-9ea3-184e315d4e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Character\Bullet">
+      <UniqueIdentifier>{6b2a3cb1-b7ef-4deb-a90d-55fb719cd17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Game">
+      <UniqueIdentifier>{b512b13c-3366-4975-9b89-1d2541bebddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Game\SoloGame">
+      <UniqueIdentifier>{35f84a3c-5d11-46b1-b3e1-5d5cc00be6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Flow\Game\MultiGame">
+      <UniqueIdentifier>{165cc92d-1c4e-463b-a534-5121d20bd676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\InterFace\Ranking">
+      <UniqueIdentifier>{ad4f1a3d-403b-4b04-9849-3cf9eedcaf8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Character\PlayerAI">
+      <UniqueIdentifier>{88d562fb-db82-4604-b958-b1b25c188e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\MainLoop">
+      <UniqueIdentifier>{532c2343-f174-4418-8cd7-1be514ab8ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Character\DemoPlay">
+      <UniqueIdentifier>{262bd804-8900-4c93-bbfd-ea58557170c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\camera.cpp">
+      <Filter>game\other\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\checkpoint.cpp">
+      <Filter>game\InterFace\CheckPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\collision.cpp">
+      <Filter>game\other\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common.cpp">
+      <Filter>Mediocrity\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\direct3d.cpp">
+      <Filter>DirectX\Direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\directinput.cpp">
+      <Filter>DirectX\DirectInput XInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\directsound.cpp">
+      <Filter>DirectX\DirectSound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ending.cpp">
+      <Filter>game\Flow\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\field.cpp">
+      <Filter>game\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fieldobject.cpp">
+      <Filter>game\Field\BlockBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framerate.cpp">
+      <Filter>main\FrameRate</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\layout_base.cpp">
+      <Filter>game\InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>main\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mesh.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\polygon.cpp">
+      <Filter>Mediocrity\polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\speed.cpp">
+      <Filter>game\InterFace\Speed</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\sprite.cpp">
+      <Filter>DirectX\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\texture.cpp">
+      <Filter>DirectX\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\time.cpp">
+      <Filter>game\InterFace\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\title.cpp">
+      <Filter>game\Flow\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\xinput.cpp">
+      <Filter>DirectX\DirectInput XInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\character_base.cpp">
+      <Filter>game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\progress.cpp">
+      <Filter>game\Flow\Progress</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player.cpp">
+      <Filter>game\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bullet.cpp">
+      <Filter>game\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\solo_game.cpp">
+      <Filter>game\Flow\Game\SoloGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\multi_game.cpp">
+      <Filter>game\Flow\Game\MultiGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game_base.cpp">
+      <Filter>game\Flow\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\flow_base.cpp">
+      <Filter>game\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ranking.cpp">
+      <Filter>game\InterFace\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\player_ai.cpp">
+      <Filter>game\Character\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main_loop.cpp">
+      <Filter>main\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\demoplay.cpp">
+      <Filter>game\Character\DemoPlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\camera.h">
+      <Filter>game\other\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\character_base.h">
+      <Filter>game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\checkpoint.h">
+      <Filter>game\InterFace\CheckPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\collision.h">
+      <Filter>game\other\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common.h">
+      <Filter>Mediocrity\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\direct3d.h">
+      <Filter>DirectX\Direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\directinput.h">
+      <Filter>DirectX\DirectInput XInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\directsound.h">
+      <Filter>DirectX\DirectSound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ending.h">
+      <Filter>game\Flow\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\field.h">
+      <Filter>game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fieldobject.h">
+      <Filter>game\Field\BlockBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\flow_base.h">
+      <Filter>game\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framerate.h">
+      <Filter>main\FrameRate</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\layout_base.h">
+      <Filter>game\InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main.h">
+      <Filter>main\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mesh.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\objectbase.h">
+      <Filter>Mediocrity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\polygon.h">
+      <Filter>Mediocrity\polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\release.h">
+      <Filter>Mediocrity</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\speed.h">
+      <Filter>game\InterFace\Speed</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\sprite.h">
+      <Filter>DirectX\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\texture.h">
+      <Filter>DirectX\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\time.h">
+      <Filter>game\InterFace\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\title.h">
+      <Filter>game\Flow\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\xinput.h">
+      <Filter>DirectX\DirectInput XInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\progress.h">
+      <Filter>game\Flow\Progress</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player.h">
+      <Filter>game\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bullet.h">
+      <Filter>game\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\solo_game.h">
+      <Filter>game\Flow\Game\SoloGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game_base.h">
+      <Filter>game\Flow\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\multi_game.h">
+      <Filter>game\Flow\Game\MultiGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ranking.h">
+      <Filter>game\InterFace\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\player_ai.h">
+      <Filter>game\Character\PlayerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main_loop.h">
+      <Filter>main\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\demoplay.h">
+      <Filter>game\Character\DemoPlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
